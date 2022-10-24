@@ -27,13 +27,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de mi</a>
+                        <a class="nav-link" href="#scrollspyHeading1">Acerca de mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link" href="#scrollspyHeading2">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#scrollspyHeading3">Contacto</a>
                     </li>
 
                 </ul>
@@ -49,25 +49,28 @@
                     Programación y Desarrollo <br> Web
                 </h1>
                 <p class="my-5">
-                    Te ayudo a cointruir soluciones tecnologicas para el desarrollo de tus paginas, aplicaciones y sistemas CRUD.
+                    Te ayudo a cointruir soluciones tecnologicas para el desarrollo de tus paginas, aplicaciones y sistemas CRUD. Mi enfoque es Full-Stack, abarcando desde el desarrollo conceptual de la idea hasta el despliegue de la base de datos y hosting.
                 </p>
                 <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
-                    <button class="btn btn-lg btn-info text-light">Contacto</button>
+                    <a href="#scrollspyHeading2">
+                        <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
+                    </a>
+                    <a href="#scrollspyHeading3">
+                        <button class="btn btn-lg btn-info text-light">Contacto</button>
+                    </a>
                 </div>
             </div>
         </div>
     </header>
 
 
-    <section id="Acerca-de-mi" class="container text-center my-5">
+    <section data-bs-spy="scroll" id="Acerca-de-mi" class="container text-center my-5">
 
 
-        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+        <h2 class="display-3 fw-bold my-4" id="scrollspyHeading1">Acerca de mi</h2>
 
         <p class="my-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam distinctio, odit laborum aliquam
-            earum itaque cum sequi, dolorem optio vol
+            Mis conocimientos en programación nacen de un profundo interés e impulso autodidacta. Sin embargo, en el último periodo de mi formación se ha nutrido con diversos cursos y mi participación en Desafío Latam (academia de programación Full-Stack)
         </p>
 
 
@@ -90,32 +93,35 @@
                 <i class="fa-solid fa-database fa-3x my-4"></i>
                 <h3 class="my-3 fw-bold">Base de datos</h3>
                 <p class="my-3">
-                    Si tu aplicación/página requiere un sistema de usuarios-administrador o control de stock, con MongoDB + NodeJS podemos lograrlo al 100%.
+                    Si tu página/aplicación requiere un sistema de usuarios-administrador o control de stock, con MongoDB + NodeJS podemos lograrlo al 100%.
                 </p>
             </div>
         </div>
     </section>
 
 
-    <section id="Mis-trabajos" class="my-5 p-5 bg-info">
+    <section id="Mis-trabajos" data-bs-spy="scroll" class="my-5 p-5 bg-info">
 
-        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
+        <h2 class="display-4 fw-bold text-center text-light mb-3" id="scrollspyHeading2">Mis Trabajos</h2>
 
         <div class="row">
             <div class="col-12 col-sm-4 py-2">
                 <div class="card">
                     <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Asado en la Patagonia</h5>
+                        <h5 class="card-title fw-bold">Gif Expert App</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Explicabo iure sint, perspiciatis distinctio molestias nihil
-                            repudiandae neque rem adipisci repellendus libero illo quo
-                            blanditiis, velit quasi ad, recusandae voluptates officia.
+                            Aplicacion realizada en React + NodeJS, consistente en un buscador de Gif's con solicitures HTTP a una API publica.
+                            <br>
+                            <br>
+                            <a href="https://github.com/CarloAguirre/webserver-curso-node" target="_blank">Ver codigo</a>
                         </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
+                        <hr>
+                        <a href="https://gif-app-carloa.netlify.app/" target="_blank">
+                            <button type="button" class="btn btn-outline-info">
+                                Ver app
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -123,16 +129,19 @@
                 <div class="card">
                     <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Papas del fin del mundo</h5>
+                        <h5 class="card-title fw-bold">Webserver  E-commerce</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum,
-                            consequatur quos error fuga excepturi quo. Laudantium optio
-                            pariatur laboriosam modi, ea molestias?
+                            Página realizada en HTML, CSS y Javascript. Su renderización esta desarrollada en base a Express y Handlebars.
+                            <br>
+                            <br>
+                            <a href="https://github.com/CarloAguirre/webserver-curso-node" target="_blank">Ver codigo</a>
                         </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
+                        <hr>
+                        <a href="https://webserver-curso-node-cguirre.herokuapp.com/" target="_blank">
+                            <button type="button" class="btn btn-outline-info">
+                                Ver app
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -140,16 +149,80 @@
                 <div class="card">
                     <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Salmones de Alaska</h5>
+                        <h5 class="card-title fw-bold">Sistema CRUD + Google Sign</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Obcaecati facere quibusdam sint id laborum magni velit ducimus
-                            corporis facilis qui architecto dolor, accusamus eveniet
-                            exercitationem fugit. Quod autem neque ducimus.
+                            Aplicacion de NodeJS (+Express). Permite crear, modificar, buscar y borrar usuarios, categorias y productos.
+                            <br>
+                            <br>
+                            <a href="https://github.com/CarloAguirre/CRUD_JSONWebToken_GoogleSign" target="_blank">Ver codigo</a>
                         </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
+                        <hr>
+                        <a href="https://resterver-crud.herokuapp.com/" target="_blank">
+                            <button type="button" class="btn btn-outline-info">
+                                Ver app
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-3">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/card-4.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Pagina de arriendo de propiedades</h5>
+                        <p class="card-text">
+                            Página desarrollada en CMS Wordpress para el arriendo y calendarización de propiedades y servicios turísticos.
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                        <hr>
+                        <a href="https://resterver-crud.herokuapp.com/" target="_blank">
+                            <button type="button" class="btn btn-outline-info">
+                                Ver sitio
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-3">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/card-5.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Pagina de arriendos tipo Airbnb</h5>
+                        <p class="card-text">
+                            Maqueta de sitio web para arriendo vacacional de propiedades, desarrollado en HTML, CSSS y Bootstrap.
+                            <br>
+                            <br>
+                            <a href="https://github.com/CarloAguirre/pagina-arriendos-bootstrap" target="_blank">Ver codigo</a>
+                        </p>
+                        <hr>
+                        <a href="https://bootstrap-rents.netlify.app/" target="_blank">
+                            <button type="button" class="btn btn-outline-info">
+                                Ver sitio
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-3">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/card-6.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Sitio web Informativo</h5>
+                        <p class="card-text">
+                            Maqueta de sitio web para el despliegue de informacion, fichas tecnicas, y otros.
+                            Realizado en HTML y CSS.
+                            <br>
+                            <br>
+                            <a href="https://github.com/CarloAguirre/fichas-tecnicas" target="_blank">Ver codigo</a>
+                        </p>
+                        <hr>
+                        <a href="https://desafio-latam-2.netlify.app/" target="_blank">
+                            <button type="button" class="btn btn-outline-info">
+                                Ver sitio
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -159,15 +232,11 @@
 
 
 
-    <section id="Contacto" class="container my-5">
+    <section id="Contacto" data-bs-spy="scroll" class="container my-5">
 
-        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+        <h2 class="display-4 fw-bold text-center my-4" id="scrollspyHeading3">Contáctame</h2>
 
-        <p class="text-center my-4 d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Doloribus
-            sapiente, autem delectus totam expedita
-            animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
-            tempora quaerat?</p>
+        <p class="text-center my-4 d-none d-md-block">Enviame tu consulta o idea.</p>
 
         <form>
 
@@ -201,7 +270,7 @@
 
 
     <footer class="bg-dark text-center text-light p-4">
-        <p class="mb-0">Olivia Ros 2019. Todos los derechos reservados.</p>
+        <p class="mb-0">Carlo Aguirre. Todos los derechos reservados.</p>
     </footer>
 
 
