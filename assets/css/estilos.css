@@ -1,8 +1,8 @@
 body {
   font-family: "Raleway", sans-serif;
-  background-color: rgba(var(--bs-dark-rgb));
+  /* background-color: rgba(var(--bs-dark-rgb)); */
+  background-image: url(../img/back.jpg);
 }
-
 /* Hero Section */
 
 #Hero-Section {
@@ -12,6 +12,13 @@ body {
   background-position: left;
 }
  /* Acerca de mi  */
+
+ #Acerca-de-mi{
+  height: auto;
+  width: auto;
+  background-color:rgba(var(--bs-dark-rgb));
+ }
+
  #Acerca-de-mi h5, h2, p, i{
   color: antiquewhite;
  }
@@ -20,7 +27,8 @@ body {
   background-image: url(../img/card-1.2.jpg);
   background-size: 1%;
   background-repeat: no-repeat;
- } .image-hover2{
+ }
+ .image-hover2{
   background-image: url(../img/card-2.2.jpg);
   background-size: 1%;
   background-repeat: no-repeat;
@@ -44,6 +52,7 @@ body {
   background-size: 1%;
   background-repeat: no-repeat;
  }
+
 .card{
   background-color: rgba(var(--bs-dark-rgb));
   background-size: 10.68rem;
@@ -57,6 +66,9 @@ body {
 
 /* Mis trabajos */
 
+/* #Mis-trabajos{
+  border-top-left-radius: -50%;
+} */
 
 #Mis-trabajos .image-top {
   height: 250px;
@@ -67,33 +79,42 @@ body {
   border-top-left-radius: 5%;
   transition: .5s;
 }
+
 .image-top:hover{
- transform:translateX(25%)
+ transform:translateX(25%);
 }
 
 #Mis-trabajos h2{
   color: white;
   background-color: rgba(0, 0, 0, 0.1);
  }
+
  #Mis-trabajos h5{
   color: antiquewhite;
  }
 
  .icono{
   transition: .3s;
-  /* transition: ease; */
-  
 }
+
  .icono:hover{
   transform: scale(1.1);
 }
 
 /* Contacto */
 
+#Contacto{
+
+  background-color:rgba(var(--bs-dark-rgb));
+
+}
+
 #Contacto form label {
   font-weight: 700;
-  color: #373a3c;
+  color: white;
 }
+
+/* Media querys */
 
 @media (max-width: 768px) {
   #Contacto form label {
@@ -104,3 +125,9 @@ body {
     width: 100px;
   }
 }
+
+@media (min-width: 768px){
+  #Acerca-de-mi{
+    border-bottom-left-radius: 5%;
+  }
+ }
