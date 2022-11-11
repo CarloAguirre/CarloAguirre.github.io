@@ -1,8 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   background-image: url(../img/back.jpg);
-  background-repeat:repeat;
-
+  background-repeat: repeat;
 }
 /* Hero Section */
 
@@ -26,7 +25,8 @@ p,
 i {
   color: antiquewhite;
 }
-/* imagen trasera se las cards */
+
+/* imagen trasera de las cards */
 .image-hover1 {
   background-image: url(../img/card-1.2.jpg);
   background-repeat: no-repeat;
