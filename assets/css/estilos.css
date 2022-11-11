@@ -11,6 +11,19 @@ body {
   background-size: cover;
   background-position: left;
 }
+.selfcard{
+  display: flex;
+  justify-content: center;
+}
+
+.selfcard-content img{
+  max-width: 10rem;
+  border-radius: 50%;
+  margin-bottom: -170px;
+  border: solid;
+  border-width: .4rem;
+  border-color: rgba(0, 0, 0, 0.25);;
+}
 /* Acerca de mi  */
 
 #Acerca-de-mi {
@@ -25,6 +38,11 @@ p,
 i {
   color: antiquewhite;
 }
+
+#Acerca-de-mi h2{
+  padding-top: 3.4rem;
+}
+
 
 /* imagen trasera de las cards */
 .image-hover1 {
