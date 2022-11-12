@@ -43,6 +43,14 @@ i {
   padding-top: 3.4rem;
 }
 
+.icono {
+  transition: 0.3s;
+}
+
+.icono:hover {
+  transform: scale(1.1);
+}
+
 /* Mis Trabajos */
 .card {
   background-color: rgba(var(--bs-dark-rgb));
@@ -50,14 +58,26 @@ i {
   border: none;
   cursor: pointer;
   margin: 1rem;
+  transition: .6s;
+  transition-delay: 0s;
+  
 }
 
-.card-img-top{
+.card:hover {
+  transition-delay: 1s;
+  -webkit-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.75);
+}
+
+.card-img-top {
+  border: none;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
 }
 
 .card-wrapper {
+  border: none;
   display: flex;
 }
 
@@ -68,14 +88,6 @@ i {
 
 .card h5 {
   color: antiquewhite;
-}
-
-.icono {
-  transition: 0.3s;
-}
-
-.icono:hover {
-  transform: scale(1.1);
 }
 
 .carousel-control-prev,
@@ -94,6 +106,7 @@ i {
 .carousel-control-next {
   margin-right: -2rem;
 }
+
 
 /* Contacto */
 
