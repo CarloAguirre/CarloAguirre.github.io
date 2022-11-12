@@ -11,18 +11,18 @@ body {
   background-size: cover;
   background-position: left;
 }
-.selfcard{
+.selfcard {
   display: flex;
   justify-content: center;
 }
 
-.selfcard-content img{
+.selfcard-content img {
   max-width: 10rem;
   border-radius: 50%;
   margin-bottom: -170px;
   border: solid;
-  border-width: .4rem;
-  border-color: rgba(0, 0, 0, 0.25);;
+  border-width: 0.4rem;
+  border-color: rgba(0, 0, 0, 0.25);
 }
 /* Acerca de mi  */
 
@@ -39,59 +39,26 @@ i {
   color: antiquewhite;
 }
 
-#Acerca-de-mi h2{
+#Acerca-de-mi h2 {
   padding-top: 3.4rem;
 }
 
-
-/* imagen trasera de las cards */
-.image-hover1 {
-  background-image: url(../img/card-1.2.jpg);
-  background-repeat: no-repeat;
-}
-.image-hover2 {
-  background-image: url(../img/card-2.2.jpg);
-  background-repeat: no-repeat;
-}
-.image-hover3 {
-  background-image: url(../img/card-3.2.jpg);
-  background-repeat: no-repeat;
-}
-.image-hover4 {
-  background-image: url(../img/card-4.2.jpg);
-  background-repeat: no-repeat;
-}
-.image-hover5 {
-  background-image: url(../img/card-5.2.jpg);
-  background-repeat: no-repeat;
-}
-.image-hover6 {
-  background-image: url(../img/card-6.2.jpg);
-  background-repeat: no-repeat;
-}
-
+/* Mis Trabajos */
 .card {
   background-color: rgba(var(--bs-dark-rgb));
-  background-size: 10.68rem;
-  background-repeat: no-repeat;
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
-  border-top-left-radius: 10%;
+  border-radius: 5%;
   border: none;
+  cursor: pointer;
+  margin: 1rem;
 }
 
-#Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: antiquewhite;
+.card-img-top{
   border-top-left-radius: 5%;
-  transition: 0.5s;
+  border-top-right-radius: 5%;
 }
 
-.image-top:hover {
-  transform: translateX(25%);
+.card-wrapper {
+  display: flex;
 }
 
 #Mis-trabajos h2 {
@@ -99,7 +66,7 @@ i {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-#Mis-trabajos h5 {
+.card h5 {
   color: antiquewhite;
 }
 
@@ -109,6 +76,23 @@ i {
 
 .icono:hover {
   transform: scale(1.1);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #b7b7b7;
+  border-radius: 50%;
+  width: 8vh;
+  height: 8vh;
+  top: 50%;
+}
+
+.carousel-control-prev {
+  margin-left: -2rem;
+}
+
+.carousel-control-next {
+  margin-right: -2rem;
 }
 
 /* Contacto */
@@ -137,5 +121,29 @@ i {
 @media (min-width: 768px) {
   #Acerca-de-mi {
     border-bottom-left-radius: 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-display {
+    display: none;
+  }
+  .card {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .carousel-control-prev {
+    margin-left: -0.5rem;
+  }
+
+  .carousel-control-next {
+    margin-right: -0.5rem;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 6vh;
+    height: 6vh;
   }
 }

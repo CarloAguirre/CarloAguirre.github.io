@@ -82,7 +82,7 @@
       </div>
       <div class="selfcard">
         <div class="selfcard-content">
-          <img src="./assets/img/me.png" alt="">
+          <img src="./assets/img/me.png" alt="imagen del programador" />
         </div>
       </div>
     </header>
@@ -137,231 +137,562 @@
     <section
       id="Mis-trabajos"
       data-bs-spy="scroll"
-      class="my-5 px-5 pb-5 pt-3"
+      class="my-5 px-5 pt-3"
       style="background-image: url(./assets/img/back.jpg)"
     >
-      <div class="h2-container">
-        <h2 class="display-4 fw-bold text-center mb-3" id="scrollspyHeading2">
-          Mis Trabajos
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 py-2">
-          <div class="card image-hover1">
-            <div
-              class="image-top"
-              style="background-image: url(assets/img/card-1.jpg)"
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Gif Expert App</h5>
-              <p class="card-text">
-                Aplicacion realizada en React + NodeJS, consistente en un
-                buscador de Gif's con solicitures HTTP a una API publica.
-                <span
-                  ><a
-                    href="https://github.com/CarloAguirre/gif-app"
-                    target="_blank"
-                    ><button type="button" class="btn btn-primary btn-sm">
-                      ver codigo
-                    </button></a
-                  ></span
-                >
-              </p>
-              <br />
-              <hr />
-              <div class="d-flex justify-content-center">
-                <a
-                  href="https://carloaguirre.github.io/gif-app/"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-info btn-lg">
-                    Ver app
-                  </button>
-                </a>
+      <h2 class="display-4 fw-bold text-center" id="scrollspyHeading2">
+        Mis Trabajos
+      </h2>
+      <div class="card-display">
+        <div
+          id="carouselExampleControls"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-wrapper">
+                <div class="card">
+                  <div class="image-wrapper">
+                    <img
+                      src="./assets/img/card-1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Gif Expert App</h5>
+                    <p class="card-text">
+                      Aplicacion realizada en React + NodeJS, consistente en un
+                      buscador de Gif's con solicitures HTTP a una API publica.
+                      <span
+                        ><a
+                          href="https://github.com/CarloAguirre/gif-app"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm">
+                            ver codigo
+                          </button></a
+                        ></span
+                      >
+                    </p>
+                    <br />
+                    <hr />
+                    <div class="d-flex justify-content-center">
+                      <a
+                        href="https://carloaguirre.github.io/gif-app/"
+                        target="_blank"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-outline-info btn-lg"
+                        >
+                          Ver app
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image-wrapper">
+                    <img
+                      src="./assets/img/card-2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Webserver E-commerce</h5>
+                    <p class="card-text">
+                      Página realizada en HTML, CSS y Javascript. Su
+                      renderización esta desarrollada en base a Express y
+                      Handlebars.
+                      <span
+                        ><a
+                          href="https://github.com/CarloAguirre/webserver-curso-node"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm">
+                            ver codigo
+                          </button></a
+                        ></span
+                      >
+                      <br />
+                    </p>
+                    <br />
+                    <hr />
+                    <div class="d-flex justify-content-center">
+                      <a
+                        href="https://webserver-curso-node-cguirre.herokuapp.com/"
+                        target="_blank"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-outline-info btn-lg"
+                        >
+                          Ver app
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image-wrapper">
+                    <img
+                      src="./assets/img/card-3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">
+                      Sistema CRUD + Google Sign
+                    </h5>
+                    <p class="card-text">
+                      Aplicacion de NodeJS (+Express). Permite crear, modificar,
+                      buscar y borrar usuarios, categorias y productos.
+                      <span
+                        ><a
+                          href="https://github.com/CarloAguirre/crud-avanzado"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm">
+                            ver codigo
+                          </button></a
+                        ></span
+                      >
+                      <br />
+                    </p>
+                    <br />
+                    <hr />
+                    <div class="d-flex justify-content-center">
+                      <a
+                        href="https://restserver-crud-avanzado.herokuapp.com/"
+                        target="_blank"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-outline-info btn-lg"
+                        >
+                          Ver app
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-wrapper">
+                <div class="card">
+                  <div class="image-wrapper">
+                    <img
+                      src="./assets/img/card-4.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">
+                      Pagina de arriendo de propiedades
+                    </h5>
+                    <p class="card-text">
+                      Página desarrollada en CMS Wordpress para el arriendo y
+                      calendarización de propiedades y servicios turísticos.
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <hr />
+                    <div class="d-flex justify-content-center">
+                      <a href="https://buenaaventura.cl/" target="_blank">
+                        <button
+                          type="button"
+                          class="btn btn-outline-info btn-lg"
+                        >
+                          Ver sitio
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image-wrapper">
+                    <img
+                      src="./assets/img/card-5.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">
+                      Pagina de arriendos tipo Airbnb
+                    </h5>
+                    <p class="card-text">
+                      Maqueta de sitio web para arriendo vacacional de
+                      propiedades, desarrollado en HTML, CSSS y Bootstrap.
+                      <span
+                        ><a
+                          href="https://github.com/CarloAguirre/pagina-arriendos-bootstrap"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm">
+                            ver codigo
+                          </button></a
+                        ></span
+                      >
+                      <br />
+                    </p>
+                    <br />
+                    <hr />
+                    <div class="d-flex justify-content-center">
+                      <a
+                        href="https://carloaguirre.github.io/pagina-arriendos-bootstrap/"
+                        target="_blank"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-outline-info btn-lg"
+                        >
+                          Ver sitio
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image-wrapper">
+                    <img
+                      src="./assets/img/card-6.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Sitio web Informativo</h5>
+                    <p class="card-text">
+                      Maqueta de sitio web para el despliegue de informacion,
+                      fichas tecnicas, y otros. Realizado en HTML y CSS.
+                      <span
+                        ><a
+                          href="https://github.com/CarloAguirre/fichas-tecnicas"
+                          target="_blank"
+                          ><button type="button" class="btn btn-primary btn-sm">
+                            ver codigo
+                          </button></a
+                        ></span
+                      >
+                      <br />
+                    </p>
+                    <br />
+                    <hr />
+                    <div class="d-flex justify-content-center">
+                      <a
+                        href="https://carloaguirre.github.io/fichas-tecnicas/"
+                        target="_blank"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-outline-info btn-lg"
+                        >
+                          Ver sitio
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 py-2">
-          <div class="card image-hover2">
-            <div
-              class="image-top"
-              style="background-image: url(assets/img/card-2.jpg)"
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Webserver E-commerce</h5>
-              <p class="card-text">
-                Página realizada en HTML, CSS y Javascript. Su renderización
-                esta desarrollada en base a Express y Handlebars.
-                <span
-                  ><a
-                    href="https://github.com/CarloAguirre/webserver-curso-node"
-                    target="_blank"
-                    ><button type="button" class="btn btn-primary btn-sm">
-                      ver codigo
-                    </button></a
-                  ></span
-                >
-                <br />
-              </p>
-              <br />
-              <hr />
-              <div class="d-flex justify-content-center">
-                <a
-                  href="https://webserver-curso-node-cguirre.herokuapp.com/"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-info btn-lg">
-                    Ver app
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 py-2">
-          <div class="card image-hover3">
-            <div
-              class="image-top"
-              style="background-image: url(assets/img/card-3.jpg)"
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Sistema CRUD + Google Sign</h5>
-              <p class="card-text">
-                Aplicacion de NodeJS (+Express). Permite crear, modificar,
-                buscar y borrar usuarios, categorias y productos.
-                <span
-                  ><a
-                    href="https://github.com/CarloAguirre/crud-avanzado"
-                    target="_blank"
-                    ><button type="button" class="btn btn-primary btn-sm">
-                      ver codigo
-                    </button></a
-                  ></span
-                >
-                <br />
-              </p>
-              <br />
-              <hr />
-              <div class="d-flex justify-content-center">
-                <a
-                  href="https://restserver-crud-avanzado.herokuapp.com/"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-info btn-lg">
-                    Ver app
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 py-3">
-          <div class="card image-hover4">
-            <div
-              class="image-top"
-              style="background-image: url(assets/img/card-4.jpg)"
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">
-                Pagina de arriendo de propiedades
-              </h5>
-              <p class="card-text">
-                Página desarrollada en CMS Wordpress para el arriendo y
-                calendarización de propiedades y servicios turísticos.
-                <br />
-                <br />
-                <br />
-              </p>
-              <hr />
-              <div class="d-flex justify-content-center">
-                <a href="https://buenaaventura.cl/" target="_blank">
-                  <button type="button" class="btn btn-outline-info btn-lg">
-                    Ver sitio
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 py-3">
-          <div class="card image-hover5">
-            <div
-              class="image-top"
-              style="background-image: url(assets/img/card-5.jpg)"
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">
-                Pagina de arriendos tipo Airbnb
-              </h5>
-              <p class="card-text">
-                Maqueta de sitio web para arriendo vacacional de propiedades,
-                desarrollado en HTML, CSSS y Bootstrap.
-                <span
-                  ><a
-                    href="https://github.com/CarloAguirre/pagina-arriendos-bootstrap"
-                    target="_blank"
-                    ><button type="button" class="btn btn-primary btn-sm">
-                      ver codigo
-                    </button></a
-                  ></span
-                >
-                <br />
-              </p>
-              <br />
-              <hr />
-              <div class="d-flex justify-content-center">
-                <a
-                  href="https://carloaguirre.github.io/pagina-arriendos-bootstrap/"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-info btn-lg">
-                    Ver sitio
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 py-3">
-          <div class="card image-hover6">
-            <div
-              class="image-top"
-              style="background-image: url(assets/img/card-6.jpg)"
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Sitio web Informativo</h5>
-              <p class="card-text">
-                Maqueta de sitio web para el despliegue de informacion, fichas
-                tecnicas, y otros. Realizado en HTML y CSS.
-                <span
-                  ><a
-                    href="https://github.com/CarloAguirre/fichas-tecnicas"
-                    target="_blank"
-                    ><button type="button" class="btn btn-primary btn-sm">
-                      ver codigo
-                    </button></a
-                  ></span
-                >
-                <br />
-              </p>
-              <br />
-              <hr />
-              <div class="d-flex justify-content-center">
-                <a
-                  href="https://carloaguirre.github.io/fichas-tecnicas/"
-                  target="_blank"
-                >
-                  <button type="button" class="btn btn-outline-info btn-lg">
-                    Ver sitio
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </section>
+
+    <!-- responsive slide -->
+    <div
+      id="carouselExampleControlsSmallScreen"
+      class="carousel carousel-dark slide d-lg-none"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  src="./assets/img/card-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Gif Expert App</h5>
+                <p class="card-text">
+                  Aplicacion realizada en React + NodeJS, consistente en un
+                  buscador de Gif's con solicitures HTTP a una API publica.
+                  <span
+                    ><a
+                      href="https://github.com/CarloAguirre/gif-app"
+                      target="_blank"
+                      ><button type="button" class="btn btn-primary btn-sm">
+                        ver codigo
+                      </button></a
+                    ></span
+                  >
+                </p>
+                <br />
+                <hr />
+                <div class="d-flex justify-content-center">
+                  <a
+                    href="https://carloaguirre.github.io/gif-app/"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-info btn-lg">
+                      Ver app
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  src="./assets/img/card-2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Webserver E-commerce</h5>
+                <p class="card-text">
+                  Página realizada en HTML, CSS y Javascript. Su renderización
+                  esta desarrollada en base a Express y Handlebars.
+                  <span
+                    ><a
+                      href="https://github.com/CarloAguirre/webserver-curso-node"
+                      target="_blank"
+                      ><button type="button" class="btn btn-primary btn-sm">
+                        ver codigo
+                      </button></a
+                    ></span
+                  >
+                  <br />
+                </p>
+                <br />
+                <hr />
+                <div class="d-flex justify-content-center">
+                  <a
+                    href="https://webserver-curso-node-cguirre.herokuapp.com/"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-info btn-lg">
+                      Ver app
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  src="./assets/img/card-3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Sistema CRUD + Google Sign</h5>
+                <p class="card-text">
+                  Aplicacion de NodeJS (+Express). Permite crear, modificar,
+                  buscar y borrar usuarios, categorias y productos.
+                  <span
+                    ><a
+                      href="https://github.com/CarloAguirre/crud-avanzado"
+                      target="_blank"
+                      ><button type="button" class="btn btn-primary btn-sm">
+                        ver codigo
+                      </button></a
+                    ></span
+                  >
+                  <br />
+                </p>
+                <br />
+                <hr />
+                <div class="d-flex justify-content-center">
+                  <a
+                    href="https://restserver-crud-avanzado.herokuapp.com/"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-info btn-lg">
+                      Ver app
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  src="./assets/img/card-4.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">
+                  Pagina de arriendo de propiedades
+                </h5>
+                <p class="card-text">
+                  Página desarrollada en CMS Wordpress para el arriendo y
+                  calendarización de propiedades y servicios turísticos.
+                  <br />
+                  <br />
+                  <br />
+                </p>
+                <hr />
+                <div class="d-flex justify-content-center">
+                  <a href="https://buenaaventura.cl/" target="_blank">
+                    <button type="button" class="btn btn-outline-info btn-lg">
+                      Ver sitio
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  src="./assets/img/card-5.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">
+                  Pagina de arriendos tipo Airbnb
+                </h5>
+                <p class="card-text">
+                  Maqueta de sitio web para arriendo vacacional de propiedades,
+                  desarrollado en HTML, CSSS y Bootstrap.
+                  <span
+                    ><a
+                      href="https://github.com/CarloAguirre/pagina-arriendos-bootstrap"
+                      target="_blank"
+                      ><button type="button" class="btn btn-primary btn-sm">
+                        ver codigo
+                      </button></a
+                    ></span
+                  >
+                  <br />
+                </p>
+                <br />
+                <hr />
+                <div class="d-flex justify-content-center">
+                  <a
+                    href="https://carloaguirre.github.io/pagina-arriendos-bootstrap/"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-info btn-lg">
+                      Ver sitio
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="image-wrapper">
+                <img
+                  src="./assets/img/card-6.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Sitio web Informativo</h5>
+                <p class="card-text">
+                  Maqueta de sitio web para el despliegue de informacion, fichas
+                  tecnicas, y otros. Realizado en HTML y CSS.
+                  <span
+                    ><a
+                      href="https://github.com/CarloAguirre/fichas-tecnicas"
+                      target="_blank"
+                      ><button type="button" class="btn btn-primary btn-sm">
+                        ver codigo
+                      </button></a
+                    ></span
+                  >
+                  <br />
+                </p>
+                <br />
+                <hr />
+                <div class="d-flex justify-content-center">
+                  <a
+                    href="https://carloaguirre.github.io/fichas-tecnicas/"
+                    target="_blank"
+                  >
+                    <button type="button" class="btn btn-outline-info btn-lg">
+                      Ver sitio
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControlsSmallScreen"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControlsSmallScreen"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <section
       id="Contacto"
@@ -395,7 +726,6 @@
               placeholder="Escribe aquí tu mensaje"
             ></textarea>
           </div>
-
           <div class="text-end">
             <button class="btn btn-info text-light mt-2">Enviar</button>
           </div>
