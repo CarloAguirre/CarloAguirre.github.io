@@ -24,6 +24,7 @@ body {
   border-width: 0.4rem;
   border-color: rgba(0, 0, 0, 0.25);
 }
+
 /* Acerca de mi  */
 
 #Acerca-de-mi {
@@ -52,6 +53,7 @@ i {
 }
 
 /* Mis Trabajos */
+
 .card {
   background-color: rgba(var(--bs-dark-rgb));
   border-radius: 5%;
@@ -106,7 +108,6 @@ i {
 .carousel-control-next {
   margin-right: -2rem;
 }
-
 
 /* Contacto */
 
