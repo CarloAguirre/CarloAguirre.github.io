@@ -1,12 +1,12 @@
 body {
   font-family: "Raleway", sans-serif;
-  background-image: url(../img/back.jpg);
+  background-image: url("https://res.cloudinary.com/dubwhwd1w/image/upload/v1671664762/back_s4flxp.webp");
   background-repeat: repeat;
 }
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("https://res.cloudinary.com/dubwhwd1w/image/upload/v1671664706/bg-hero_yxh9oc.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
