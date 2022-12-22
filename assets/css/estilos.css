@@ -77,6 +77,12 @@ i {
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
 }
+@media (max-width: 991px){
+   
+  /* .card-body{
+    height: 312px;
+  } */
+}
 
 .card-wrapper {
   border: none;
